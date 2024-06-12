@@ -1,0 +1,17 @@
+.pallet {
+  display: flex;
+  gap: 5px;
+}
+
+.all {
+  background-color: blue;
+  color: white;
+}
+
+.pallet > div {
+  color: black;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-weight: bold;
+}

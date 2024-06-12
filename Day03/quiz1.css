@@ -1,0 +1,21 @@
+.box {
+  width: 1000px;
+  height: 1000px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.box > div {
+  width: 900px;
+  height: 140px;
+  font-size: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  color: white;
+  background-color: black;
+}

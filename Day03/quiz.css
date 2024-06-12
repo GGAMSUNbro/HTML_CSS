@@ -1,0 +1,38 @@
+.head {
+  width: 1000px;
+  height: 1000px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  /* 주축으로 위치 선정해주기 */
+  justify-content: center;
+  /* 교차축으로 위치 선정해주기 */
+  align-items: center;
+  /* 자식들 사이에 gap 주기 */
+  gap: 10px;
+}
+
+.head > div {
+  width: 100px;
+  height: 100px;
+}
+
+.one {
+  background-color: bisque;
+  border: 1px solid white;
+}
+
+.two {
+  background-color: black;
+  border: 1px solid white;
+}
+
+.three {
+  background-color: blueviolet;
+  border: 1px solid white;
+}
+
+.four {
+  background-color: aquamarine;
+  border: 1px solid white;
+}
