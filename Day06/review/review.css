@@ -1,0 +1,36 @@
+.menu {
+  font-family: "Nanum Pen Script", cursive;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-weight: 600;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: fit-content;
+}
+.upperMenu {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+.lowerMenu {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.option {
+  width: 100px;
+  height: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+.icon {
+  font-size: 50px;
+  flex-direction: column;
+  align-items: center;
+}
