@@ -1,0 +1,16 @@
+.downbox {
+  position: fixed;
+  bottom: 80px;
+  right: 80px;
+
+  background-color: #ff919b;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  color: white;
+  border-radius: 12px;
+  padding: 20px 16px;
+}
+
+.downbox:hover {
+  background-color: #a5353f;
+}

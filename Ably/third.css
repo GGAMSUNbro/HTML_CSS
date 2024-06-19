@@ -1,0 +1,21 @@
+.third {
+  width: 100vw;
+}
+.third > div {
+  display: flex;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+
+  flex-direction: column;
+  gap: 10px;
+}
+.mission > h1 {
+  font-size: 20px;
+  color: gray;
+}
+h5 {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+}
