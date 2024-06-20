@@ -1,0 +1,35 @@
+.fifth {
+  width: 100vw;
+  height: 50vh;
+  margin-top: 100px;
+}
+
+.fifth > div {
+  display: flex;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+
+  flex-direction: column;
+  gap: 10px;
+}
+.businessMain {
+  font-size: 50px;
+}
+.businessStory {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.story {
+  width: 360px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.story > img {
+  width: 200px;
+  height: 200px;
+}

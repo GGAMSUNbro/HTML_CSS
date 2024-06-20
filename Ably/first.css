@@ -21,26 +21,3 @@
   align-items: center;
   color: wheat;
 }
-.second {
-  width: 100vw;
-  height: 40vh;
-  display: flex;
-  flex-direction: column;
-  justify-self: center;
-  align-items: center;
-  margin: 0 auto;
-  background-color: aliceblue;
-}
-.second > .pargr {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: gray;
-  font-size: 30px;
-}
-.second > .pargr2 {
-  display: flex;
-  color: gray;
-  font-size: 30px;
-}
