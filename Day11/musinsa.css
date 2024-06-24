@@ -1,0 +1,23 @@
+.container {
+  width: 100vw;
+  overflow: scroll;
+}
+.snap {
+  width: 100vw;
+  display: flex;
+  gap: 10px;
+}
+.snapShot {
+  display: flex;
+  flex-direction: column;
+}
+
+i {
+  position: fixed;
+}
+.info {
+  display: flex;
+}
+.percent {
+  color: red;
+}

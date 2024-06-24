@@ -1,0 +1,31 @@
+.main {
+  width: 100vw;
+  overflow: scroll;
+}
+
+.menu {
+  width: 60vw;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: gray;
+}
+
+.upperMenu {
+  width: 100%;
+  display: flex;
+  font-size: 10px;
+}
+.imageBox {
+  width: 30px;
+  border: 1px solid gray;
+  border-radius: 50px;
+}
+img {
+  width: 20px;
+}
+
+.lowerMenu {
+  width: 100%;
+  display: flex;
+  font-size: 10px;
+}

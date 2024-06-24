@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 100vw;
+  max-width: 960px;
+  height: 80vh;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  background: rgb(43, 79, 106);
+  background: linear-gradient(
+    209deg,
+    rgba(43, 79, 106, 0.577468487394958) 0%,
+    rgba(60, 56, 46, 1) 100%
+  );
+}
+.profil {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+}
+.imageBox {
+  width: 100px;
+  height: 100px;
+}
+.imageBox > img {
+  width: 100%;
+  height: 100%;
+}
