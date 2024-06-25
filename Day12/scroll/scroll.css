@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+}
+
+.box {
+  min-width: 500px;
+  height: 100%;
+  scroll-snap-align: start;
+}

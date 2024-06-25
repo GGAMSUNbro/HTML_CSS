@@ -1,0 +1,49 @@
+.container {
+  width: 100vw;
+  height: 200vh;
+  max-width: 940px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+header {
+  width: 100vw;
+  max-width: 940px;
+}
+.title > div:hover {
+  cursor: pointer;
+}
+.title {
+  display: flex;
+  width: 100vw;
+  max-width: 940px;
+  height: 40px;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.name {
+  font-weight: bold;
+}
+.linkBox {
+  display: flex;
+  width: 100vw;
+  max-width: 950px;
+  margin: 0 auto;
+  font-size: 18px;
+  justify-content: space-between;
+  position: sticky;
+}
+.linkBox:hover {
+  cursor: pointer;
+}
+.timeSale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.event {
+  color: red;
+  font-weight: bold;
+}

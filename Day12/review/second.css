@@ -1,0 +1,25 @@
+.circleButton {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.stamp {
+  width: 100vw;
+  max-width: 940px;
+  display: flex;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 20px;
+  align-items: center;
+}
+.iconic {
+  font-size: 30px;
+}
+.list {
+  padding-left: 130px;
+}
